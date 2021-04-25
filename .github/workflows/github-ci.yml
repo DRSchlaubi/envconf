@@ -54,7 +54,7 @@ jobs:
           # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 
       - name: Gradle (Testing)
-        run: gradle --stacktrace --info jvmTest jsTest
+        run: gradle --stacktrace --info check
   release:
     name: Publish artifacts
     runs-on: ubuntu-latest

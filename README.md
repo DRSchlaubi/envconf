@@ -75,7 +75,7 @@ dependencies {
   <dependencies>
     <dependency>
       <groupId>dev.schlaubi</groupId>
-      <artifactId>envconf</artifactId>
+      <artifactId>envconf-jvm</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>

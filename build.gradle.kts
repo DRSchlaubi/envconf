@@ -65,6 +65,8 @@ kotlin {
         }
 
         dokkaHtml {
+            outputDirectory.set(file("docs"))
+
             dokkaSourceSets {
                 configureEach {
                     includeNonPublic.set(false)
