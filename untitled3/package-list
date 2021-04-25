@@ -1,0 +1,14 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:dev.schlaubi.envconf////PointingToDeclaration/untitled3/dev.schlaubi.envconf/index.html
+$dokka.location:dev.schlaubi.envconf//environment/#/PointingToDeclaration/untitled3/dev.schlaubi.envconf/environment.html
+$dokka.location:dev.schlaubi.envconf//getEnv/#kotlin.String?#TypeParam(bounds=[kotlin.Any?])?#kotlin.Function1[kotlin.String,TypeParam(bounds=[kotlin.Any?])?]/PointingToDeclaration/untitled3/dev.schlaubi.envconf/get-env.html
+$dokka.location:dev.schlaubi.envconf//getEnv/#kotlin.String?#kotlin.String?/PointingToDeclaration/untitled3/dev.schlaubi.envconf/get-env.html
+$dokka.location:dev.schlaubi.envconf/Config///PointingToDeclaration/untitled3/dev.schlaubi.envconf/-config/index.html
+$dokka.location:dev.schlaubi.envconf/EnvironmentVariable.Companion///PointingToDeclaration/untitled3/dev.schlaubi.envconf/-environment-variable/-companion/index.html
+$dokka.location:dev.schlaubi.envconf/EnvironmentVariable.Companion/invoke/#kotlin.String?#kotlin.Function1[kotlin.String,TypeParam(bounds=[kotlin.Any?])?]#TypeParam(bounds=[kotlin.Any?])?/PointingToDeclaration/untitled3/dev.schlaubi.envconf/-environment-variable/-companion/invoke.html
+$dokka.location:dev.schlaubi.envconf/EnvironmentVariable///PointingToDeclaration/untitled3/dev.schlaubi.envconf/-environment-variable/index.html
+$dokka.location:dev.schlaubi.envconf/EnvironmentVariable/getValue/#kotlin.Any?#kotlin.reflect.KProperty[*]/PointingToDeclaration/untitled3/dev.schlaubi.envconf/-environment-variable/get-value.html
+$dokka.location:dev.schlaubi.envconf/EnvironmentVariable/optional/#/PointingToDeclaration/untitled3/dev.schlaubi.envconf/-environment-variable/optional.html
+dev.schlaubi.envconf
+
