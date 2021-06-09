@@ -3,8 +3,8 @@ import org.jetbrains.kotlin.gradle.targets.js.testing.KotlinJsTest
 import java.util.Base64
 
 plugins {
-    kotlin("multiplatform") version "1.4.32"
-    id("org.jetbrains.dokka") version "1.4.30"
+    kotlin("multiplatform") version "1.5.10"
+    id("org.jetbrains.dokka") version "1.4.32"
     id("org.ajoberstar.git-publish") version "2.1.3"
     `maven-publish`
     signing
@@ -43,7 +43,7 @@ kotlin {
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit5"))
-                runtimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+                runtimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.2")
             }
         }
 
