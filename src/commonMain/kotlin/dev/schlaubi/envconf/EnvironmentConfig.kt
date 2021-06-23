@@ -10,7 +10,7 @@ import kotlin.reflect.KProperty
  *val PORT by environment
  * ```
  */
-public val environment: ReadOnlyProperty<Any?, String>
+public val environment: EnvironmentVariable<String>
     get() = getEnv()
 
 /**

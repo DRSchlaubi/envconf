@@ -8,7 +8,7 @@ import kotlin.properties.ReadOnlyProperty
  * Is intended to be used via composition or via inheritance
  */
 @Suppress("MemberVisibilityCanBePrivate")
-public open class Config internal constructor(private val prefix: String) {
+public open class Config constructor(private val prefix: String) {
 
     /**
      * Shortcut to make API usable like this
@@ -21,7 +21,7 @@ public open class Config internal constructor(private val prefix: String) {
      * }
      * ```
      */
-    protected val environment: ReadOnlyProperty<String, *>
+    protected val environment: EnvironmentVariable<String>
         get() = getEnv()
 
     /**
