@@ -23,14 +23,14 @@ class PlainTest {
 
     @Test
     fun testSimpleValueWithTransform() {
-        val HELLO by getEnv { it.toLowerCase() }
+        val HELLO by getEnv { it.lowercase() }
 
         assertEquals(HELLO, "hello")
     }
 
     @Test
     fun testSimpleValueWithPrefix() {
-        val LLO by getEnv("HE") { it.toLowerCase() }
+        val LLO by getEnv("HE") { it.lowercase() }
 
         assertEquals(LLO, "hello")
     }
