@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.schlaubi", "envconf", "1.0")
+    implementation("dev.schlaubi", "envconf", "1.1")
 }
 ```
 </details>
@@ -54,7 +54,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'dev.schlaubi:envconf:1.0'
+    implementation 'dev.schlaubi:envconf:1.1'
 }
 ```
 
@@ -76,7 +76,7 @@ dependencies {
     <dependency>
       <groupId>dev.schlaubi</groupId>
       <artifactId>envconf-jvm</artifactId>
-      <version>1.0</version>
+      <version>1.1</version>
     </dependency>
   </dependencies>
 </project>
