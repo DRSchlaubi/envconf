@@ -83,3 +83,6 @@ dependencies {
 ```
 
 </details>
+
+# Why is there no .env support?
+Because it's easier to [use this great plugin](https://plugins.jetbrains.com/plugin/7861-envfile).
