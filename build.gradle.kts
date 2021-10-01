@@ -3,9 +3,9 @@ import org.jetbrains.kotlin.gradle.targets.js.testing.KotlinJsTest
 import java.util.Base64
 
 plugins {
-    kotlin("multiplatform") version "1.5.10"
-    id("org.jetbrains.dokka") version "1.4.32"
-    id("org.ajoberstar.git-publish") version "2.1.3"
+    kotlin("multiplatform") version "1.5.31"
+    id("org.jetbrains.dokka") version "1.5.30"
+    id("org.ajoberstar.git-publish") version "3.0.0"
     `maven-publish`
     signing
 }
@@ -43,7 +43,7 @@ kotlin {
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit5"))
-                runtimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.2")
+                runtimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
             }
         }
 
@@ -61,7 +61,7 @@ kotlin {
 
         withType<KotlinJsTest> {
             testFramework =
-                EnvConfTestFramework(org.jetbrains.kotlin.gradle.targets.js.testing.mocha.KotlinMocha(compilation))
+                EnvConfTestFramework(useMocha())
         }
 
         dokkaHtml {
