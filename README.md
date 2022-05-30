@@ -1,4 +1,4 @@
-**Project has moved to https://github.com/DRSchlaubi/stdx.kt
+**Project has moved to https://github.com/DRSchlaubi/stdx.kt**
 
 # envconf
 
