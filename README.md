@@ -1,3 +1,5 @@
+**Project has moved to https://github.com/DRSchlaubi/stdx.kt
+
 # envconf
 
 envconf is a small Kotlin MPP (currently JVM, JS) library, which helps you to use environment variables for your config
